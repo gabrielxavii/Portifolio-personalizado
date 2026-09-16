@@ -1,0 +1,11 @@
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
