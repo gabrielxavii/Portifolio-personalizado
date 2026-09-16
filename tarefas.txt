@@ -1,0 +1,215 @@
+========================================
+PROJETO — PORTFÓLIO PESSOAL
+========================================
+
+OBJETIVO
+Criar um portfólio pessoal moderno utilizando tecnologias
+e ferramentas utilizadas no desenvolvimento web profissional.
+
+STACK PRINCIPAL
+[ ] React
+[ ] TypeScript
+[ ] Vite
+[ ] CSS / Tailwind CSS
+[ ] Git
+[ ] GitHub
+[ ] Vercel
+
+
+========================================
+ETAPA 1 — PREPARAÇÃO DO AMBIENTE
+========================================
+
+[ ] Verificar instalação do Node.js
+[ ] Verificar instalação do npm
+[ ] Configurar VS Code
+[ ] Configurar Git
+[ ] Configurar GitHub
+[ ] Criar repositório no GitHub
+[ ] Criar projeto React com Vite
+[ ] Executar o projeto localmente
+[ ] Entender a estrutura inicial do projeto
+
+
+========================================
+ETAPA 2 — REACT
+========================================
+
+[ ] Entender o que é React
+[ ] Entender componentes
+[ ] Criar componentes
+[ ] Entender JSX/TSX
+[ ] Trabalhar com props
+[ ] Trabalhar com eventos
+[ ] Trabalhar com estado
+[ ] Organizar componentes em pastas
+
+
+========================================
+ETAPA 3 — TYPESCRIPT
+========================================
+
+[ ] Entender tipos básicos
+[ ] Criar interfaces
+[ ] Tipar props
+[ ] Tipar estados
+[ ] Tipar funções
+[ ] Criar tipos para os projetos do portfólio
+
+
+========================================
+ETAPA 4 — ESTRUTURA DO SITE
+========================================
+
+[ ] Criar Navbar
+[ ] Criar Footer
+[ ] Criar página inicial
+[ ] Criar página Portfólio
+[ ] Criar página Formação
+[ ] Criar página Sobre Mim
+[ ] Criar página Contato
+[ ] Criar componentes reutilizáveis
+
+
+========================================
+ETAPA 5 — NAVEGAÇÃO
+========================================
+
+[ ] Instalar React Router
+[ ] Criar rotas
+[ ] Configurar página inicial
+[ ] Configurar rota Portfólio
+[ ] Configurar rota Formação
+[ ] Configurar rota Sobre Mim
+[ ] Configurar rota Contato
+[ ] Criar navegação entre páginas
+[ ] Criar página 404
+
+
+========================================
+ETAPA 6 — DESIGN E RESPONSIVIDADE
+========================================
+
+[ ] Definir identidade visual
+[ ] Criar layout principal
+[ ] Criar cards de projetos
+[ ] Adicionar imagens
+[ ] Criar botões
+[ ] Criar efeitos de hover
+[ ] Criar animações
+[ ] Adaptar para celular
+[ ] Adaptar para tablet
+[ ] Adaptar para desktop
+[ ] Implementar modo claro/escuro
+
+
+========================================
+ETAPA 7 — PORTFÓLIO
+========================================
+
+[ ] Criar estrutura dos projetos
+[ ] Adicionar Logistic Web
+[ ] Adicionar imagem do Logistic Web
+[ ] Adicionar descrição
+[ ] Adicionar tecnologias utilizadas
+[ ] Adicionar link do GitHub
+[ ] Adicionar link da versão online
+[ ] Adicionar outros projetos
+[ ] Criar componente ProjectCard
+
+
+========================================
+ETAPA 8 — FORMAÇÃO
+========================================
+
+[ ] Adicionar faculdade
+[ ] Adicionar cursos
+[ ] Adicionar instituições
+[ ] Adicionar imagens/logos
+[ ] Adicionar certificados
+[ ] Organizar formação visualmente
+
+
+========================================
+ETAPA 9 — SOBRE MIM
+========================================
+
+[ ] Adicionar foto
+[ ] Criar apresentação pessoal
+[ ] Adicionar objetivos profissionais
+[ ] Adicionar conhecimentos
+[ ] Adicionar LinkedIn
+[ ] Adicionar GitHub
+
+
+========================================
+ETAPA 10 — CONTATO
+========================================
+
+[ ] Criar formulário
+[ ] Campo Nome
+[ ] Campo E-mail
+[ ] Campo Mensagem
+[ ] Validar campos
+[ ] Validar formato do e-mail
+[ ] Exibir mensagens de erro
+[ ] Exibir mensagem de sucesso
+[ ] Limpar formulário após envio
+[ ] Implementar envio real
+
+
+========================================
+ETAPA 11 — GIT E GITHUB
+========================================
+
+[ ] Inicializar Git
+[ ] Criar .gitignore
+[ ] Fazer primeiro commit
+[ ] Criar repositório remoto
+[ ] Fazer push
+[ ] Criar commits organizados
+[ ] Criar README.md
+[ ] Documentar tecnologias
+[ ] Documentar instalação
+[ ] Documentar projeto
+
+
+========================================
+ETAPA 12 — DEPLOY
+========================================
+
+[ ] Criar conta/configurar Vercel
+[ ] Conectar GitHub
+[ ] Fazer primeiro deploy
+[ ] Testar site online
+[ ] Corrigir problemas de deploy
+[ ] Configurar domínio (opcional)
+[ ] Testar site em diferentes dispositivos
+
+
+========================================
+ETAPA 13 — REVISÃO
+========================================
+
+[ ] Revisar código
+[ ] Organizar arquivos
+[ ] Remover código desnecessário
+[ ] Verificar responsividade
+[ ] Verificar links
+[ ] Verificar imagens
+[ ] Testar formulário
+[ ] Testar navegação
+[ ] Testar versão mobile
+[ ] Revisar README
+[ ] Revisar GitHub
+[ ] Revisar versão final do site
+
+
+========================================
+PROJETO CONCLUÍDO
+========================================
+
+[ ] Site publicado
+[ ] GitHub organizado
+[ ] README concluído
+[ ] Portfólio pronto para apresentação
