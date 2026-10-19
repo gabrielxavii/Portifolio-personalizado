@@ -32,7 +32,7 @@
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="tampa-animada" />
+     inkscape:current-layer="tela" />
   <defs
      id="defs1">
     <rect
@@ -348,42 +348,46 @@
              y="31.068491"
              rx="30.000002"
              ry="30.000002" />
-          <rect
-             style="fill:#212121;fill-opacity:1;fill-rule:nonzero;stroke:url(#radialGradient32);stroke-width:0.265;stroke-dasharray:none"
-             id="rect7"
-             width="633.20544"
-             height="378.73975"
-             x="85.80822"
-             y="78.410965"
-             rx="30.000002"
-             ry="30.000002" />
-          <rect
-             style="fill:#004205;fill-opacity:1;fill-rule:nonzero;stroke-width:0.264999;stroke-dasharray:none"
-             id="rect69"
-             width="587.34235"
-             height="337.31509"
-             x="110.95891"
-             y="99.123314"
-             rx="30"
-             ry="30" />
-          <rect
-             style="fill:#006308;fill-opacity:1;fill-rule:nonzero;stroke-width:0.264999;stroke-dasharray:none"
-             id="rect70"
-             width="559.23279"
-             height="316.60278"
-             x="125.75343"
-             y="110.95892"
-             rx="30"
-             ry="30" />
-          <rect
-             style="opacity:0.107172;fill:#3dff4d;fill-opacity:1;fill-rule:nonzero;stroke-width:0.264999;stroke-dasharray:none"
-             id="rect72"
-             width="576.98627"
-             height="254.46576"
-             x="118.35616"
-             y="105.0411"
-             rx="30.000002"
-             ry="30.000002" />
+          <g
+             id="tela"
+             inkscape:label="Tela">
+            <rect
+               style="fill:#212121;fill-opacity:1;fill-rule:nonzero;stroke:url(#radialGradient32);stroke-width:0.265;stroke-dasharray:none"
+               id="rect7"
+               width="633.20544"
+               height="378.73975"
+               x="85.80822"
+               y="78.410965"
+               rx="30.000002"
+               ry="30.000002" />
+            <rect
+               style="fill:#004205;fill-opacity:1;fill-rule:nonzero;stroke-width:0.264999;stroke-dasharray:none"
+               id="rect69"
+               width="587.34235"
+               height="337.31509"
+               x="110.95891"
+               y="99.123314"
+               rx="30"
+               ry="30" />
+            <rect
+               style="fill:#006308;fill-opacity:1;fill-rule:nonzero;stroke-width:0.264999;stroke-dasharray:none"
+               id="rect70"
+               width="559.23279"
+               height="316.60278"
+               x="125.75343"
+               y="110.95892"
+               rx="30"
+               ry="30" />
+            <rect
+               style="opacity:0.107172;fill:#3dff4d;fill-opacity:1;fill-rule:nonzero;stroke-width:0.264999;stroke-dasharray:none"
+               id="rect72"
+               width="576.98627"
+               height="254.46576"
+               x="118.35616"
+               y="105.0411"
+               rx="30.000002"
+               ry="30.000002" />
+          </g>
           <rect
              style="opacity:1;fill:#3f3f3f;fill-opacity:1;fill-rule:nonzero;stroke-width:0.264999;stroke-dasharray:none"
              id="rect73"
@@ -402,15 +406,6 @@
              y="466.0274"
              rx="50"
              ry="14.054797" />
-          <rect
-             style="opacity:1;fill:#5d5d5d;fill-opacity:1;fill-rule:nonzero;stroke-width:0.264999;stroke-dasharray:none"
-             id="rect75"
-             width="5.9178085"
-             height="1.4794521"
-             x="998.63019"
-             y="492.65756"
-             rx="50"
-             ry="1.4794521" />
         </g>
       </g>
       <g

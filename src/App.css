@@ -1,14 +1,22 @@
 .v3-phone {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
 
-.v3-phone svg {
-  width: 400px;
+.v3-phone-desenho {
+  position: relative;
+  width: 600px;
+  }
+
+.v3-phone-desenho svg {
+  display: block;
+  width: 100%;
   height: auto;
 }
+
 .v3-phone #v3-aberto {
   opacity: 0;
   visibility: hidden;
@@ -40,4 +48,44 @@
 }
 .v3-phone.aberto #v3-aberto #tampa-animada{
   transform: perspective(700px) rotateX(0deg);
+}
+.v3-phone #v3-aberto #tela {
+  transform-box: fill-box;
+  transform-origin: center;
+  transition: transform 0.5s ease;
+}
+.v3-phone.aberto #v3-aberto #tela {
+  transform: scale(1);
+}
+
+.v3-tela-conteudo {
+  position: fixed;
+  z-index: 10;
+  box-sizing: border-box;
+  padding: 40px;
+  overflow: auto;
+  background: #3dff4d;
+  color: #000;
+  font-family: monospace;
+  border-radius: 4px;
+
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    left 0.8s ease-in-out,
+    top 0.8s ease-in-out,
+    width 0.8s  ease-in-out,
+    height 0.8s ease-in-out,
+    border-radius 0.8s ease-in-out;
+}
+
+.v3-tela-conteudo.zoom-in {
+  opacity: 1;
+  visibility: visible;
+  transition:
+    left 0.8s ease-in-out,
+    top 0.8s ease-in-out,
+    width 0.8s ease-in-out,
+    height 0.8s ease-in-out,
+    opacity 0.2s ease-in-out;
 }
