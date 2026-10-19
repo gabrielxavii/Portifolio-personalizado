@@ -1,16 +1,13 @@
-import Navbar from "./components/Navbar/Navbar"
+import  "./App.css"
+import V3Phone from "./components/V3Phone/V3Phone";
 
-function App() {  
+
+function App() {
   return (
-    <>
-      <Navbar />
-
-      <main>
-        <h1>Meu portifolio</h1>
-        <p>Em construção...</p>
-      </main>
-    </>
-  )
+    <main>
+      <V3Phone />
+    </main>
+  );
 }
 
-export default App
+export default App;
