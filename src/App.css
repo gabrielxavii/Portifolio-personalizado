@@ -89,3 +89,50 @@
     height 0.8s ease-in-out,
     opacity 0.2s ease-in-out;
 }
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #000;
+}
+
+.site-logo {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.site-nav button {
+  padding: 8px 12px;
+  border: 1px solid #000;
+  background: transparent;
+  color: #000;
+  font-family: monospace;
+  cursor: pointer;
+}
+
+.site-nav button:hover {
+  background: #000;
+  color: #3dff4d;
+}
+
+.site-content {
+  margin-top: 40px;
+  max-width: 900px;
+}
+
+.site-content h1 {
+  font-size: clamp(24px, 4vw, 48px);
+}
+
+.site-content p {
+  line-height: 1.8;
+}
