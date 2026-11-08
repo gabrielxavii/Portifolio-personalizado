@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import type { CSSProperties } from "react";
 import V3 from "../../assets/phone-designopenclose.svg?react";
+import perfilFallout from "../../assets/perfil-fallout.png";
 
 type PosicaoTela = {
   left: number;
@@ -213,7 +214,7 @@ function V3Phone() {
                       <div className="about-portait">
                         <img
                           className="about-portrait-image"
-                          src="/src/assets/perfil-fallout.png"
+                          src={perfilFallout}
                           alt="Retrato em estilo retrô de Fallout"
                         />
                         <p>USUÁRIO: GABRIEL</p>
