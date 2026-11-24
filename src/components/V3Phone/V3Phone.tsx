@@ -13,6 +13,7 @@ type PosicaoTela = {
 function V3Phone() {
   const [aberto, setAberto] = useState(false);
   const [pagina, setPagina] = useState("inicio");
+  const [tema, setTema] = useState<"claro" | "escuro">("claro");
   const [atributoSelecionado, setAtributoSelecionado] = useState({
     nome: "Eficiência",
     descricao:
@@ -26,12 +27,23 @@ function V3Phone() {
     setAberto((estadoAtual) => !estadoAtual);
   }
 
+
+  function alterarTema() {
+    setTema((temaAtual) =>
+      temaAtual === "claro" ? "escuro" : "claro"
+  );
+
+    setAberto(false);
+    setPagina("inicio");
+  }
+
   useEffect(() => {
     if (!aberto) {
       setPosicaoTela(null);
       setZoomIn(false);
       return;
     }
+
 
     const temporizador = window.setTimeout(() => {
       const tela = desenhoRef.current?.querySelector(
@@ -82,6 +94,7 @@ function V3Phone() {
       {aberto && posicaoTela && (
         <div
           className={`v3-tela-conteudo ${zoomIn ? "zoom-in" : ""}`}
+          data-tema={tema}
           style={estiloTela}
         >
             <header className="site-header">
@@ -93,6 +106,9 @@ function V3Phone() {
                     <button onClick={() => setPagina("formacao")}>Formação</button>
                     <button onClick={() => setPagina("sobre")}>Sobre mim</button>
                     <button onClick={() => setPagina("contato")}>Contato</button>
+                    <button onClick={alterarTema}>
+                      {tema === "claro" ? "[ MODO ESCURO ]" : "[ MODO CLARO ]"}
+                    </button>
                 </nav>
             </header>
 
@@ -157,7 +173,7 @@ function V3Phone() {
                           
                           <a
                             className="project-link"
-                            href="https://github.com/gabrielxavii"
+                            href="https://github.com/gabrielxavii/Portifolio-personalizado"
                             target="_blank"
                             rel="noreferrer"
                             >
@@ -168,12 +184,22 @@ function V3Phone() {
 
                       <article className="project-card">
                         <span className="project-number">Project_002</span>
-                        <h2>Projeto acadêmico</h2>
-                        <p>Espaço reservado para apresentar outro projeto desenvolvido durante a graduação.</p>
+                        <h2>LogisticsWeb</h2>
+                        <p>Aplicativo web para gerenciamento de notas para expedição.</p>
                         <div className="project-tags">
-                          <span>Em desenvolvimento</span>
-                        </div>
+                          <span>Python</span>
+                          <span>HTML</span>
+                          <span>CSS</span>
 
+                          <a
+                            className="project-link"
+                            href="https://github.com/gabrielxavii/Gerenciador-de-notas"
+                            target="_blank"
+                            rel="noreferrer"
+                            >
+                              [ VER NO GITHUB ↗ ]
+                            </a>
+                        </div>
                       </article>
                     </div>
                   </section>
@@ -196,12 +222,11 @@ function V3Phone() {
 
                     <article className="education-card">
                       <span className="project-number">ESTUDOS_001</span>
-                      <h2>Estudos complementares</h2>
+                      <h2>Curso sobre PowerBI</h2>
                       <p>
-                        Espaço para registrar cursos, certificados e outras
-                        competências desenvolvidas ao longo da formação.
+                        Curso voltado para a utilização do PowerBI.
                       </p>
-                      <span className="education-status">REGISTRO DISPONÍVEL</span>
+                      <span className="education-status">STATUS: EM ANDAMENTO</span>
                     </article>
                   </section>
                 )}

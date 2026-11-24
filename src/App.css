@@ -64,10 +64,16 @@
   box-sizing: border-box;
   padding: 40px;
   overflow: auto;
-  background: #8fbd78;
-  color: #000;
   font-family: monospace;
   border-radius: 4px;
+  --cor-fundo: #8fbd78;
+  --cor-texto: #000;
+  --cor-borda: #000;
+  --cor-hover-fundo: #000;
+  --cor-hover-texto: #8fbd78;
+
+  background: var(--cor-fundo);
+  color: var(--cor-texto);
 
   opacity: 0;
   visibility: hidden;
@@ -390,6 +396,50 @@
 .about-special {
   grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
   gap: 24px;
+}
+
+/* MODO ESCURO */
+.v3-tela-conteudo[data-tema="escuro"] {
+  --cor-fundo: #142018;
+  --cor-texto: #b8d6a5;
+  --cor-borda: #8fbd78;
+  --cor-hover-fundo: #8fbd78;
+  --cor-hover-texto: #142018;
+}
+
+/* CORES ADAPTAVEIS */
+.site-header,
+.system-status,
+.system-footer {
+  border-color: var(--cor-borda);
+}
+
+.site-nav button,
+.home-actions button,
+.attribute-button {
+  border-color: var(--cor-borda);
+  color: var(--cor-texto);
+}
+
+.site-nav button:hover,
+.home-actions button:hover,
+.attribute-button:hover,
+.attribute-button.selecionado {
+  background: var(--cor-hover-fundo);
+  color: var(--cor-hover-texto);
+}
+
+.project-card,
+.education-card,
+.education-status,
+.about-portrait,
+.attribute-description {
+  border-color: var(--cor-borda);
+}
+
+.project-card:hover {
+  background: var(--cor-hover-fundo);
+  color: var(--cor-hover-texto);
 }
 
 
