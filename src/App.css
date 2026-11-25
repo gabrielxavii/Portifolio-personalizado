@@ -442,6 +442,58 @@
   color: var(--cor-hover-texto);
 }
 
+.music-player {
+  width: 190px;
+  padding: 10px;
+  background: #8fbd78;
+  color: #000;
+  border: 2px solid #000;
+  font-family: monospace;
+  text-align: center;
+  box-shadow: 3px 3px 0 #000;
+}
+
+.music-player h2 {
+  font-size: 11px;
+  margin: 0 0 8px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #000;
+  letter-spacing: 1px;
+}
+
+.music-player p {
+  margin: 5px 0;
+  font-size: 11px;
+}
+
+.music-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.music-controls button {
+  width: 35px;
+  height: 30px;
+  background: transparent;
+  color: #000;
+  border: 1px solid #000;
+  font-family: monospace;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.music-controls button:hover {
+  background: #000;
+  color: #8fbd78;
+}
+
+.music-controls button:active {
+  transform: scale(0.95);
+}
+
 
 @media (max-width: 700px) {
   .projects-grid{

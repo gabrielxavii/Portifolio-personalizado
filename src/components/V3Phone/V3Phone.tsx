@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import type { CSSProperties } from "react";
 import V3 from "../../assets/phone-designopenclose.svg?react";
 import perfilFallout from "../../assets/perfil-fallout.png";
+import MusicPlayer from "../MusicPlayer/MusicPlayer";
 
 type PosicaoTela = {
   left: number;
@@ -97,6 +98,12 @@ function V3Phone() {
           data-tema={tema}
           style={estiloTela}
         >
+          {aberto && (
+          <div className="music-player-container">
+            <MusicPlayer />
+          </div>
+          )}
+          
             <header className="site-header">
                 <span className="site-logo">V3://PORTFOLIO</span>
 
