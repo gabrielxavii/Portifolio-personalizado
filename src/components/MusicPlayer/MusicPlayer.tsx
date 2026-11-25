@@ -62,15 +62,6 @@ function MusicPlayer() {
     setDuracao(0);
     }
 
-  function formatarTempo(tempo: number) {
-    if (!Number.isFinite(tempo)) return "0:00";
-
-    const minutos = Math.floor(tempo / 60);
-    const segundos = Math.floor(tempo % 60);
-
-    return `${minutos}:${segundos.toString().padStart(2, "0")}`;
-  }
-
   function alterarTempo(valor: number) {
     if (audioRef.current) {
       audioRef.current.currentTime = valor;
